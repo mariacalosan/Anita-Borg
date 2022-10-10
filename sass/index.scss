@@ -1,0 +1,9 @@
+/*importando el archivo de estilos globales de Anita*/
+@import './globales/normalize';
+
+/*importando el archivo variables*/
+@import './globales/_variables.scss';
+
+h1{
+    background-color: $bg-azul-petroleo;
+}

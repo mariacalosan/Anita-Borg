@@ -1,0 +1,26 @@
+/*importando el archivo de estilos globales de Anita*/
+/*reseteo*/
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+/*Globales*/
+html {
+  font-size: 90%; }
+
+body {
+  display: grid;
+  margin: 30px;
+  padding: 10px;
+  font-size: 14px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 2.5px;
+  text-transform: capitalize; }
+
+/*importando el archivo variables*/
+/*variable de color*/
+h1 {
+  background-color: #012A4A; }
