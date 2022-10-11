@@ -1,3 +1,5 @@
+/*importando el archivo variables*/
+/*variable de color*/
 /*importando el archivo de estilos globales de Anita*/
 /*reseteo*/
 *,
@@ -13,14 +15,19 @@ html {
 
 body {
   display: grid;
-  margin: 30px;
+  margin: 0;
   padding: 10px;
   font-size: 14px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   letter-spacing: 2.5px;
-  text-transform: capitalize; }
-
-/*importando el archivo variables*/
-/*variable de color*/
-h1 {
+  text-transform: capitalize;
+  height: 1024px;
   background-color: #012A4A; }
+
+ol {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer; }

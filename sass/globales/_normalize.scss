@@ -8,18 +8,29 @@
 }
 
 /*Globales*/
-html{
-    font-size: 90%;
-    
+html {
+  font-size: 90%;
+
 }
 
-body{
-    display: grid;
-    margin: 30px;
-    padding: 10px;
-    font-size: 14px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    letter-spacing: 2.5px;
-    text-transform: capitalize;
+body {
+  display: grid;
+  margin: 0;
+  padding: 10px;
+  font-size: 14px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 2.5px;
+  text-transform: capitalize;
+  height: 1024px;
+  background-color: $bg-azul-petroleo;
 }
 
+ol {
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
