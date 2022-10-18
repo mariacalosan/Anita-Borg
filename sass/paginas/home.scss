@@ -1,0 +1,10 @@
+section{
+    width: 1296px;
+    height: 785px;
+    margin: auto;
+    div{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+}
