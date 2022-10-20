@@ -18,11 +18,12 @@ body {
   margin: 0;
   padding: 10px;
   font-size: 14px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Nunito', sans-serif;
   letter-spacing: 2.5px;
   text-transform: capitalize;
   height: 1024px;
   background-color: $bg-azul-petroleo;
+  color: $bg-blanco;
 }
 
 ol {

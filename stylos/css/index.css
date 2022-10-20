@@ -18,11 +18,12 @@ body {
   margin: 0;
   padding: 10px;
   font-size: 14px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Nunito', sans-serif;
   letter-spacing: 2.5px;
   text-transform: capitalize;
   height: 1024px;
-  background-color: #012A4A; }
+  background-color: #012A4A;
+  color: #ffff; }
 
 ol {
   list-style: none; }
@@ -36,8 +37,8 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 34px;
-  margin-bottom: 95px; }
+  margin-top: 50px;
+  margin-bottom: 3%; }
   header h1 {
     font-size: 64px;
     letter-spacing: 10px;
@@ -59,10 +60,63 @@ header {
       width: 365px; } }
 
 section {
-  width: 1296px;
-  height: 785px;
-  margin: auto; }
-  section div {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+/*Estilos para la imagen*/
+.section_div {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 654px;
+  /*height: 750px;*/ }
+  .section_div--contenedor {
+    background-color: #ffff;
+    width: 582px;
+    height: 582px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 11px 1px #F77F00;
+    opacity: 50;
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: flex-start; }
+    align-items: center;
+    justify-content: center; }
+    .section_div--contenedor-img {
+      width: 468px;
+      height: 500px;
+      border-radius: 10px;
+      object-fit: cover;
+      box-shadow: inset 2px 1px 2px 1px #012a4a; }
+
+/*Estilos para el texto principal de Anita*/
+.div_texto {
+  /*background-color: $bg-naranja;*/
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin: 0 50px 0 50px; }
+  .div_texto-div {
+    /*background-color: aquamarine;*/
+    margin: 20px 5% 30px 10%;
+    /*width: 564px;*/
+    /*height: 210px;*/ }
+    .div_texto-div-p {
+      font-size: 16px;
+      line-height: 30px;
+      letter-spacing: 10%;
+      word-spacing: 10px; }
+    .div_texto-div-div-p {
+      /*background-color: papayawhip;*/
+      height: 270px;
+      margin: 0 5% 0 10%; }
+
+/*Estilos para el h4*/
+.div_h4 {
+  margin: 25px 0 88px 0;
+  width: 582px;
+  margin-left: 5%; }

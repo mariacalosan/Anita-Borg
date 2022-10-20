@@ -1,10 +1,79 @@
-section{
-    width: 1296px;
-    height: 785px;
+section {
+    width: 90%;
+    height: 100%;
     margin: auto;
-    div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*Estilos para la imagen*/
+
+.section_div {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 654px;
+    /*height: 750px;*/
+
+    &--contenedor {
+        background-color: $bg-blanco;
+        width: 582px;
+        height: 582px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 11px 1px $bg-naranja;
+        opacity: 50;
         display: flex;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
+        align-items: center;
+        justify-content: center;
+
+        &-img {
+            width: 468px;
+            height: 500px;
+            border-radius: 10px;
+            object-fit: cover;
+            box-shadow: inset 2px 1px 2px 1px #012a4a;
+        }
     }
+}
+
+/*Estilos para el texto principal de Anita*/
+
+.div_texto {
+    /*background-color: $bg-naranja;*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 0 50px 0 50px;
+
+    &-div {
+        /*background-color: aquamarine;*/
+        margin: 20px 5% 30px 10%;
+        /*width: 564px;*/
+        /*height: 210px;*/
+
+
+        &-p {
+            font-size: 16px;
+            line-height: 30px;
+            letter-spacing: 10%;
+            word-spacing: 10px;
+        }
+
+        &-div-p {
+            /*background-color: papayawhip;*/
+            height: 270px;
+            margin: 0 5% 0 10%;
+        }
+    }
+}
+
+/*Estilos para el h4*/
+
+.div_h4{
+    margin: 25px 0 88px 0;
+    width: 582px;
+    margin-left: 5%;
 }
