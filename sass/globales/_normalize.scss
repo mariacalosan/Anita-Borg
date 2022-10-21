@@ -26,12 +26,21 @@ body {
   color: $bg-blanco;
 }
 
-ol {
+/*ol {
   list-style: none;
-}
+}*/
 
 a{
   text-decoration: none;
   color: black;
   cursor: pointer;
+}
+
+@media (max-width:800px) {
+  body{
+    padding: 5px;
+    margin: 0;
+    background-color: $bg-naranja;
+  }
+  
 }

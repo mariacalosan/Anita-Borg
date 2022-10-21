@@ -25,13 +25,19 @@ body {
   background-color: #012A4A;
   color: #ffff; }
 
-ol {
-  list-style: none; }
-
+/*ol {
+  list-style: none;
+}*/
 a {
   text-decoration: none;
   color: black;
   cursor: pointer; }
+
+@media (max-width: 800px) {
+  body {
+    padding: 5px;
+    margin: 0;
+    background-color: #F77F00; } }
 
 header {
   display: flex;
@@ -55,7 +61,7 @@ header {
     align-items: flex-start; }
     header h1 {
       margin: 10px;
-      position: absolute;
+      /*position: absolute;*/
       font-size: 50px;
       width: 365px; } }
 
@@ -80,7 +86,7 @@ section {
     width: 582px;
     height: 582px;
     border-radius: 10px;
-    box-shadow: 1px 1px 11px 1px #F77F00;
+    box-shadow: 1px 1px 11px 1px #000000;
     opacity: 50;
     display: flex;
     align-items: center;
@@ -120,3 +126,39 @@ section {
   margin: 25px 0 88px 0;
   width: 582px;
   margin-left: 5%; }
+  .div_h4-h4 {
+    letter-spacing: 5px;
+    font-size: 13px;
+    line-height: 30px; }
+
+/*parte responsiva del box model de la imagen de Anita*/
+@media (max-width: 800px) {
+  section {
+    width: 70%;
+    height: 100%;
+    /*background-color: $bg-naranja;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .section_div {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    /*height: 100px;*/ }
+    .section_div--contenedor {
+      width: 200px;
+      height: 200px;
+      box-shadow: 1px 1px 11px 1px #ffff; }
+      .section_div--contenedor-img {
+        width: 150px;
+        height: 150px; } }
+
+/*parte responsiva del texto principal de Anita*/
+@media (max-width: 800px) {
+  .div_texto {
+    background-color: aqua;
+    margin: 0 30px 0 30px; }
+    .div_texto-div {
+      margin: 30px 5% 35px 5%; } }
